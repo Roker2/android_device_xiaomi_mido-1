@@ -444,5 +444,8 @@
          and currently depends on QC's proprietary telephony stack -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 
+    <!-- Component name for default assistant on this device -->
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+
 </resources>
 
