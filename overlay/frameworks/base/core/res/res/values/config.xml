@@ -511,4 +511,7 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Button brightness -->
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 </resources>
