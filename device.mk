@@ -178,8 +178,9 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
@@ -304,6 +305,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.goodix.sh \
     init.qcom.bt.sh \
+    init.qti.fm.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
