@@ -59,5 +59,17 @@
     <string name="dirac_preset_metal">Metal</string>
 
      <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">Mi sound</string>
+    <string name="dirac_qs_tile_title">Mi Sound</string>
+
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <string name="summary_empty" translatable="false"></string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">On</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Off</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Advanced settings</string>
 </resources>
