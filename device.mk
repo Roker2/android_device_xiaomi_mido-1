@@ -158,9 +158,9 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
-# Device-specific settings
+# DiracControl
 PRODUCT_PACKAGES += \
-    ZeelogXiaomiParts
+    DiracControl
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
