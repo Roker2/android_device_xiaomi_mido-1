@@ -166,9 +166,9 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
-# Device-specific settings
+# Doze mode
 PRODUCT_PACKAGES += \
-    ZeelogXiaomiParts
+    XiaomiDoze
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
