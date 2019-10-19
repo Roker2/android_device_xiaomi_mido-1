@@ -77,7 +77,7 @@ vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 # Camera effects - from MIUI Camera by KudProject
 lib/libjni_blurbuster.so|fedd33b35ddaa645f4edd61378b37c0542fe1da9
 lib/libjni_chromaflash.so|fa4c0a5952cdec6459669bd591d35576f7a2d951
-lib/libjni_sharpshooter.so|9adfd9b3b084db7a2cee3c6f28681c422456e10
+lib/libjni_sharpshooter.so|9adfd9b3b084db7a2cee3c6f28681c422456e101
 
 # Charger - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
