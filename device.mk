@@ -141,8 +141,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
 #Dirac
-#PRODUCT_PACKAGES += \
-#     Dirac
+PRODUCT_PACKAGES += \
+     Dirac
 
 # Display
 PRODUCT_PACKAGES += \
