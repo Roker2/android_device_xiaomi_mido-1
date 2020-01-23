@@ -5,7 +5,7 @@ allow init adsprpcd_file:filesystem { mount relabelfrom relabelto };
 allow init sysfs_leds:lnk_file read;
 
 allow init property_socket:sock_file write;
-allow init { domain -lmkd -crash_dump }:process noatsecure;
+#allow init { domain -lmkd -crash_dump }:process noatsecure;
 allow init system_data_file:sock_file write;
 allow init system_server:fd use;
 allow init system_server:unix_stream_socket { read write };
