@@ -48,18 +48,18 @@ vendor/lib64/soundfx/libqcvirt.so|c02d70d2405d4405d6d246b18fac5d2fde291692
 # ANT+ (vendor) - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|29ecc1a9134dd2146f358e65c830059d3fa6c6d9
 
-# AptX - from Nokia/Onyx_00WW/B2N_sprout:9/PPR1.180610.011/00WW_3_39B
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
-vendor/lib64/libaptXHD_encoder.so
-vendor/lib64/libaptX_encoder.so
-
 # Bluetooth - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9178856dc8651b499d1b155825b6115a486ee05e
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|e324837c011610512f64ff8131c98e95e97ceb8f
 vendor/lib64/libbtnv.so|35444e0ca93a50751db92aa4871cf277dc66b1fa
 vendor/lib64/libbt-hidlclient.so|7d25d6082cb6fd8da40fc69f93c6341f8c1dead8
+
+# Bluetooth (aptX) - from marlin - OPM1.171019.011
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+lib/libaptX_encoder.so|984739a0bc968e18f75ced205733fe3f51c2d4f0
+lib/libaptXHD_encoder.so|974c486e4ca03faa0713553d9dfe2995ac93e0
 
 # Camera firmware - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
