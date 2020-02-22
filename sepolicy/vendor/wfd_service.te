@@ -1,1 +1,0 @@
-allow wfdservice wfd_debug_prop:file { read open };
